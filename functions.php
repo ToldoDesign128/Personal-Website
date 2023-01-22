@@ -16,7 +16,10 @@ add_action( 'after_setup_theme','Personal_setup');
 
 function add_personal_scripts() {    
     wp_enqueue_style( 'bootstrap-style', get_template_directory_uri() . '/bootstrap-grid.min.css');
+    wp_enqueue_style( 'hamburgers-style', get_template_directory_uri() . '/hamburgers.min.css');
 	wp_enqueue_style( 'personal-style', get_template_directory_uri() . '/style.min.css');
+
+    wp_enqueue_script("personal-script", get_template_directory_uri(). '/assets/js/main.js', array("jquery"), null, true);
 }
 add_action( 'wp_enqueue_scripts', 'add_personal_scripts' );
 
