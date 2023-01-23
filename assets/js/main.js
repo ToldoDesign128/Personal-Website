@@ -3,6 +3,7 @@ jQuery(document).ready(function () {
     //Hamburger menu
     jQuery('.hamburger').click(function () {
         jQuery('.hamburger').toggleClass('is-active');
+        jQuery('.header__nav').toggleClass('open');
     });
 
 

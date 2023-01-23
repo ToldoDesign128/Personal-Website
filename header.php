@@ -26,7 +26,7 @@
                         </span>
                     </button>
                 </div>
-                <nav class="header__nav col-lg-6 col-md-8 col-12 d-md-block d-none" role="navigation">
+                <nav class="header__nav col-lg-6 col-md-8 col-12" role="navigation">
                     <?php wp_nav_menu(array(
                         'theme_location'    =>  'header',
                         'container'         =>  false,

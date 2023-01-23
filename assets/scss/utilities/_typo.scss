@@ -25,3 +25,9 @@ p{ font-weight: 500; font-size: 16px; line-height: 140%;}
 ul, ol, li{ font-weight: 500; font-size: 16px; line-height: 140%;}
 a{ font-weight: 400; font-size: 16px; line-height: 140%;}
 button{ font-weight: 400; font-size: 16px; line-height: 140%; letter-spacing: 1.25px; text-transform: uppercase;}
+
+@media #{$tablet} {
+    h1{ font-size: 72px;}
+    h2{ font-size: 42px;}
+    h3{ font-size: 32px;}    
+}
