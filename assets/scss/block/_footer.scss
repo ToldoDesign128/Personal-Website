@@ -1,0 +1,44 @@
+// _footer.scss
+footer{
+    background-color: $light-color;
+    border-top: 1px solid $dark-color;
+    padding: 5rem 0;
+
+    .footer{
+
+        &__box{
+
+            h5{
+                font-weight: 600;
+                margin: 2rem 0;
+            }
+            a{
+                color: $accent-secondary-color;
+                text-decoration: none;
+            }
+            .copyright{
+                margin: 2rem 0;
+            }
+
+            &__social{
+                display: flex;
+                flex-direction: row;
+                flex-wrap: nowrap;
+                justify-content: flex-end;
+                align-items: flex-end;
+
+                a{
+                    margin: 1rem;
+                    font-size: 3.6rem;
+                    transition: all 1s cubic-bezier(.215, .61, .355, 1);
+
+                    &:hover{
+                        color: $dark-color;
+                    }
+                }
+            }
+        }
+
+    }
+
+}

@@ -1,7 +1,5 @@
 // _typo.scss
 
-// _typo.scss
-
 @import "https://fonts.googleapis.com/css2?family=Poppins";
 
 $text-font: 'Poppins', sans-serif;
@@ -31,3 +29,6 @@ button{ font-weight: 400; font-size: 16px; line-height: 140%; letter-spacing: 1.
     h2{ font-size: 42px;}
     h3{ font-size: 32px;}    
 }
+
+.text-right{text-align: right;}
+.text-left{text-align: right;}

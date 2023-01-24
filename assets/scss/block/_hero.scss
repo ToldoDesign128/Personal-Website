@@ -11,4 +11,14 @@
             margin: 5rem 0;
         }
     }
+
+    &__contatti{
+        a{
+            color: $accent-secondary-color;
+        }
+    }
+
+    @media #{$tablet} {
+        height: auto;        
+    }
 }
