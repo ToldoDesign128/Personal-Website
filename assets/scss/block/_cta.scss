@@ -1,0 +1,15 @@
+// _cta.scss
+
+.cta{
+    margin-bottom: 10rem;
+    background-color: $dark-color;
+
+    h4{
+        color: $light-color;
+    }
+
+    .button{
+        display: flex;
+        justify-content: flex-end;
+    }
+}

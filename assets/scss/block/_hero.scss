@@ -1,7 +1,7 @@
 // _hero.scss
 
 .hero{
-    height: 100vh;
+    height: 80vh;
     width: 100%;
     padding-top: 10rem;
 
@@ -15,6 +15,31 @@
     &__contatti{
         a{
             color: $accent-secondary-color;
+        }
+    }
+    &__progetti{
+        margin-top: 10rem;
+        justify-content: flex-end;
+
+        p{
+            display: flex;
+            justify-content: center;
+        }
+
+        &__icon{
+            display: flex;
+            justify-content: center;
+
+            iconify-icon{
+                color: $accent-secondary-color;
+                font-size: 4.8rem;
+                transition: all 1s cubic-bezier(.215, .61, .355, 1);
+
+                &:hover{
+                    color: $light-color;
+                    transform: scale(150%);
+                }
+            }
         }
     }
 

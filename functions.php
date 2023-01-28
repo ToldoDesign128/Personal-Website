@@ -83,4 +83,11 @@ add_action( 'init', 'Personal_disable_emoji' );
     }
 
 
+    // Functions Part
+
+    //CPT
+    require dirname(__FILE__).'/functions-parts/cpt-progetti.php'; 
 ?>
+
+
+

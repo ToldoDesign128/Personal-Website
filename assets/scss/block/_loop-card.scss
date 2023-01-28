@@ -1,0 +1,63 @@
+.progetti{
+    padding: 10rem 0;
+
+    &__card{
+        padding: 2rem;
+
+        &__content{
+            border: 1px solid $dark-color;
+            background-color: $light-color;
+            padding: 0;
+    
+            &__image{
+                width: 100%;
+        
+                img{
+                    width: 100%;
+                    height: 300px;
+                    object-fit: cover;
+                    border-bottom: 1px solid $dark-color;
+                }
+            }
+            &__title{
+                margin: 2rem 2rem;
+            }
+            .button{
+                margin: 2rem 2rem;
+            }
+        }
+    }
+}
+
+.news{
+
+    &__card{
+        padding: 2rem;
+
+        &__content{
+            border: 1px solid $dark-color;
+            background-color: $light-color;
+            padding: 0;
+    
+            &__image{
+                width: 100%;
+        
+                img{
+                    width: 100%;
+                    height: 300px;
+                    object-fit: cover;
+                    border-bottom: 1px solid $dark-color;
+                }
+            }
+            &__title{
+                margin: 2rem;
+            }
+            &__text{
+                margin: 2.2rem;
+            }
+            .button{
+                margin: 2rem;
+            }
+        }
+    }
+}
