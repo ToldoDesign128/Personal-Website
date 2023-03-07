@@ -88,6 +88,3 @@ add_action( 'init', 'Personal_disable_emoji' );
     //CPT
     require dirname(__FILE__).'/functions-parts/cpt-progetti.php'; 
 ?>
-
-
-

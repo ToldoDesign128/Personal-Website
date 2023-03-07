@@ -12,6 +12,28 @@
     </div>
 </section>
 
+<!-- Filters -->
+<!-- <div class="container categories">
+    <div class="row">
+        <ul>
+            <li class="js-filter-item"><a href="<?= home_url(); ?>">All</a></li>
+            <?php 
+            $cat_args = array(
+                'exclude' => array(1),
+                'option_all' => 'All'
+            );
+            
+            $categories = get_categories($cat_args);
+
+            foreach($categories as $cat) : ?>
+
+                <li class="js-filter-item"><a href="<?= get_category_link($cat->term_id); ?>"><?= $cat->name;?></a></li> 
+
+            <?php endforeach; ?>
+        </ul>
+    </div>
+</div> -->
+
 <!-- Loop News -->
 <section class="container news mb-5">
     <div class="row">

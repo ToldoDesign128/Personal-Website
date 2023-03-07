@@ -1,0 +1,17 @@
+.servizi{
+
+    &__title{
+        a{
+            color: $light-grey-color;
+            transition: all 1s cubic-bezier(.215, .61, .355, 1);
+
+            iconify-icon{
+                font-size: 6rem;
+            }
+            :hover{
+                color: $accent-secondary-color;
+            }
+        }
+    }
+    
+}

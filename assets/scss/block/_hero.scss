@@ -4,11 +4,29 @@
     height: 80vh;
     width: 100%;
     padding-top: 10rem;
+    border-bottom: 1px solid $dark-color;
 
     &__box{
+        height: 100%;
 
         &__text{
             margin: 5rem 0;
+        }
+
+        &__image{
+            img{
+                width: 100%;
+                max-height: calc(80vh - 100px);
+                height: 100%;
+                object-fit: cover;
+                object-position: top;
+                border-left: 1px solid $dark-color;
+                border-right: 1px solid $dark-color;
+                border-bottom: 1px solid $dark-color;
+            }
+            @media #{$desktop} {
+                display: none;                
+            }
         }
     }
 
@@ -18,7 +36,7 @@
         }
     }
     &__progetti{
-        margin-top: 10rem;
+        margin-top: 5rem;
         justify-content: flex-end;
 
         p{
@@ -40,6 +58,12 @@
                     transform: scale(150%);
                 }
             }
+        }
+        @media #{$desktop} {
+            margin-top: 0rem;        
+        }
+        @media #{$tablet} {
+            margin-top: 10rem;        
         }
     }
 

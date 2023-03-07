@@ -20,13 +20,16 @@ Text Domain: personal-website
 @import '/assets/scss/general/reset';
 
 @import '/assets/scss/utilities/color';
+@import '/assets/scss/utilities/helpers';
 @import '/assets/scss/utilities/typo';
 
 @import '/assets/scss/block/pointer';
 @import '/assets/scss/block/button';
 @import '/assets/scss/block/header';
+@import '/assets/scss/block/servizi';
 @import '/assets/scss/block/hero';
 @import '/assets/scss/block/footer';
 @import '/assets/scss/block/form';
 @import '/assets/scss/block/loop-card';
 @import '/assets/scss/block/cta';
+@import '/assets/scss/block/cover';
