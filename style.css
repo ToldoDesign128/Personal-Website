@@ -298,6 +298,10 @@ button {
   left: 0;
 }
 
+.servizi {
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #1b1b1b;
+}
 .servizi__title a {
   color: #e1e1e1;
   transition: all 1s cubic-bezier(0.215, 0.61, 0.355, 1);
@@ -320,6 +324,11 @@ button {
 }
 .hero__box__text {
   margin: 5rem 0;
+}
+@media (max-width: 576px) {
+  .hero__box__text {
+    margin: 5rem 0 0 0;
+  }
 }
 .hero__box__image img {
   width: 100%;

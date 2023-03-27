@@ -51,4 +51,34 @@
     </div>
 </section>
 
+<!-- I miei lavori -->
+<section class="servizi mt-5">
+    <div class="container">
+        <div class="row">
+            <div class="servizi__title col-lg-8 co-md-10 col-12 row">
+                <h2 class="col-auto">Alcuni lavori</h2>
+                <a href="progetti" class="col-auto">
+                    <iconify-icon icon="material-symbols:arrow-outward"></iconify-icon>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA -->
+<section class="container-fluid py-5 cta">
+    <div class="container my-5">
+        <div class="row align-items-center">
+            <div class="col-md-9 col-12 my-3">
+                <h4>Pronto per costruire assieme qualcosa di grande?</h4>
+            </div>
+            <div class="col-md-3 col-12 button my-3">
+                <a href="contatti" class="button__link">
+                    <button class="button__link__items">contattami</button>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
 <?php get_footer() ?>
