@@ -299,7 +299,7 @@ button {
 }
 
 .servizi {
-  padding-bottom: 2rem;
+  padding: 0;
   border-bottom: 1px solid #1b1b1b;
 }
 .servizi__title a {
@@ -311,6 +311,36 @@ button {
 }
 .servizi__title a :hover {
   color: #ba181b;
+}
+.servizi__carousel {
+  margin-top: 2rem;
+  height: 30rem;
+}
+.servizi__carousel__track__list {
+  height: 100%;
+}
+.servizi__carousel__track__list__item {
+  position: relative;
+  height: 100%;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(0deg, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%);
+  border: 1px solid #1b1b1b;
+}
+.servizi__carousel__track__list__item__image {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  mix-blend-mode: multiply;
+}
+.servizi__carousel__track__list__item__title {
+  position: absolute;
+  top: 24rem;
+  left: 5rem;
+  color: #fff;
+  font-size: 2.4rem;
 }
 
 .hero {

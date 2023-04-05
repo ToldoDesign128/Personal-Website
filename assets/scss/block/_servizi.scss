@@ -1,5 +1,5 @@
 .servizi{
-    padding-bottom: 2rem;
+    padding: 0;
     border-bottom: 1px solid $dark-color;
 
     &__title{
@@ -15,5 +15,40 @@
             }
         }
     }
+
+    &__carousel{
+        margin-top: 2rem;
+        height: 30rem;
+
+        &__track{
+
+            &__list{
+                height: 100%;  
     
+                &__item{   
+                    position: relative;
+                    height: 100%;
+                    background: rgb(0,0,0);
+                    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,0) 100%);
+                    border: 1px solid $dark-color;
+
+                    &__image{
+                        width: 100%;
+                        object-fit: cover;
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        mix-blend-mode: multiply;
+                    }
+                    &__title{
+                        position: absolute;
+                        top: 24rem;
+                        left: 5rem;
+                        color: $white-color;
+                        font-size: 2.4rem;
+                    }
+                }
+            }
+        }
+    }    
 }

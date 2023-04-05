@@ -40,4 +40,15 @@ jQuery(document).ready(function () {
         });
     });
 
+    //Splide
+
+    var splide = new Splide( '.splide', {
+        type : 'loop',
+        perPage: 3,
+        focus  : 0,
+        omitEnd: true,
+      } );
+      
+      splide.mount();
+
 });

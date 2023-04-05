@@ -38,7 +38,7 @@
 </section>
 
 <!-- Servizi -->
-<section class="servizi my-5">
+<section class="container-fluid servizi my-5">
     <div class="container">
         <div class="row">
             <div class="servizi__title col-lg-8 co-md-10 col-12 row">
@@ -48,6 +48,17 @@
                 </a>
             </div>
         </div>
+    </div>
+    <div class="servizi__carousel splide">
+        <div class="servizi__carousel__track__list splide__track">
+            <ul class="servizi__carousel__track__list splide__list">
+                <li class="servizi__carousel__track__list__item splide__slide"> <img src="http://sergiom106.sg-host.com/wp-content/uploads/2023/01/screenshot.png" class="servizi__carousel__track__list__item__image" alt=""> <h5 class="servizi__carousel__track__list__item__title" > Design </h5> </li>
+                <li class="servizi__carousel__track__list__item splide__slide"> <img src="http://sergiom106.sg-host.com/wp-content/uploads/2023/01/screenshot.png" class="servizi__carousel__track__list__item__image" alt=""> <h5 class="servizi__carousel__track__list__item__title" > Sviluppo Web </h5> </li>
+                <li class="servizi__carousel__track__list__item splide__slide"> <img src="http://sergiom106.sg-host.com/wp-content/uploads/2023/01/screenshot.png" class="servizi__carousel__track__list__item__image" alt=""> <h5 class="servizi__carousel__track__list__item__title" > Marketing </h5> </li>
+                <li class="servizi__carousel__track__list__item splide__slide"> <img src="http://sergiom106.sg-host.com/wp-content/uploads/2023/01/screenshot.png" class="servizi__carousel__track__list__item__image" alt=""> <h5 class="servizi__carousel__track__list__item__title" > Comunication Manager </h5> </li>
+                <li class="servizi__carousel__track__list__item splide__slide"> <img src="http://sergiom106.sg-host.com/wp-content/uploads/2023/01/screenshot.png" class="servizi__carousel__track__list__item__image" alt=""> <h5 class="servizi__carousel__track__list__item__title" > Web Menagement </h5> </li>
+            </ul>
+    </div>
     </div>
 </section>
 
