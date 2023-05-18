@@ -73,9 +73,9 @@
 </section>
 
 <!-- I miei lavori -->
-<section class="servizi my-5">
+<section class="servizi py-5">
     <div class="container">
-        <div class="row">
+        <div class="row mb-5">
             <div class="servizi__title col-lg-8 co-md-10 col-12 row">
                 <h2 class="col-auto">Alcuni lavori</h2>
                 <a href="progetti" class="col-auto">
@@ -100,7 +100,7 @@
                 <article class="col-12 mb-5">
                     <div class="lavori__card">
                         <div class="lavori__card__image">
-                            <?php the_post_thumbnail("large"); ?>
+                            <?php the_post_thumbnail('large'); ?>
                         </div>
                         <div class="lavori__card__content">
                             <div class="lavori__card__content__title">
@@ -120,7 +120,7 @@
 
             <?php endwhile; ?>
         </div>
-        <div class="row mb-5">
+        <div class="row my-5">
             <h5 class="col-md-8">Vuoi vedere qualcos'altro di mio?</h5>
             <a href="progetti" class="col-md-4 lavori-link">Vai a i miei progetti <iconify-icon icon="material-symbols:arrow-outward"></iconify-icon></a>
         </div>

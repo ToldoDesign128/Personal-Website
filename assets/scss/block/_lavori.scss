@@ -7,25 +7,46 @@
     background-color: $light-color;
     display: flex;
     flex-direction: row;
-    gap: 2rem;
 
     &__image{
+        width: 50%;
         img{
+            width: 100%;
             max-height: 29.9rem;
             object-fit: cover;
+        }
+        @media #{$tablet} {
+            img{
+                max-height: 20rem;
+            }
+            width: 100%;            
         }
     }
 
     &__content{
+        width: 50%;
+        border-left: 1px solid $dark-color;
         display: flex;
         flex-direction: column;
+        justify-content: space-between;
+        padding: 2rem;
 
         &__title{
-            margin: 2rem 0;
+            margin: 1rem 0;
         }
         &__text{
-            margin: 2rem 0;
+            margin: 1rem 0;
         }
+
+        @media #{$tablet} {
+            width: 100%;
+            border-left: none;
+            border-top: 1px solid $dark-color;            
+        }
+    }
+    @media #{$tablet} {
+        flex-direction: column;  
+        max-height: 50rem;     
     }
   }
 }

@@ -9,6 +9,13 @@ function Personal_setup() {
     register_nav_menus( array(
         'header' => esc_html__('Header', 'slug-theme')
     ));
+
+    // image size
+    if ( function_exists( 'add_image_size' ) ) {
+        add_image_size( 'small', 150, 150 , true);
+        add_image_size( 'medium', 600, 300 , false);
+        add_image_size( 'large', 1200, 600 , false);
+    }
 }
 add_action( 'after_setup_theme','Personal_setup');
 
