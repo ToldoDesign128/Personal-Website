@@ -52,19 +52,19 @@
     <div class="servizi__carousel splide">
         <div class="servizi__carousel__track__list splide__track">
             <ul class="servizi__carousel__track__list splide__list">
-                <li class="servizi__carousel__track__list__item splide__slide"> <img loading="lazy" src="http://personal-website.local/wp-content/uploads/2023/05/balazs-ketyi-FeuEg-8XlA8-unsplash.jpg" class="servizi__carousel__track__list__item__image" alt="">
+                <li class="servizi__carousel__track__list__item splide__slide"> <img loading="lazy" src="https://sergiom106.sg-host.com/wp-content/uploads/2023/05/balazs-ketyi-FeuEg-8XlA8-unsplash.jpg" class="servizi__carousel__track__list__item__image" alt="">
                     <h5 class="servizi__carousel__track__list__item__title"> Design </h5>
                 </li>
-                <li class="servizi__carousel__track__list__item splide__slide"> <img loading="lazy" src="http://personal-website.local/wp-content/uploads/2023/05/florian-olivo-4hbJ-eymZ1o-unsplash-scaled.jpg" class="servizi__carousel__track__list__item__image" alt="">
+                <li class="servizi__carousel__track__list__item splide__slide"> <img loading="lazy" src="https://sergiom106.sg-host.com/wp-content/uploads/2023/05/florian-olivo-4hbJ-eymZ1o-unsplash-scaled.jpg" class="servizi__carousel__track__list__item__image" alt="">
                     <h5 class="servizi__carousel__track__list__item__title"> Sviluppo Web </h5>
                 </li>
-                <li class="servizi__carousel__track__list__item splide__slide"> <img loading="lazy" src="http://personal-website.local/wp-content/uploads/2023/05/carlos-muza-hpjSkU2UYSU-unsplash.jpg" class="servizi__carousel__track__list__item__image" alt="">
+                <li class="servizi__carousel__track__list__item splide__slide"> <img loading="lazy" src="https://sergiom106.sg-host.com/wp-content/uploads/2023/05/carlos-muza-hpjSkU2UYSU-unsplash.jpg" class="servizi__carousel__track__list__item__image" alt="">
                     <h5 class="servizi__carousel__track__list__item__title"> Marketing </h5>
                 </li>
-                <li class="servizi__carousel__track__list__item splide__slide"> <img loading="lazy" src="http://personal-website.local/wp-content/uploads/2023/05/dylan-gillis-KdeqA3aTnBY-unsplash-scaled.jpg" class="servizi__carousel__track__list__item__image" alt="">
+                <li class="servizi__carousel__track__list__item splide__slide"> <img loading="lazy" src="https://sergiom106.sg-host.com/wp-content/uploads/2023/05/dylan-gillis-KdeqA3aTnBY-unsplash-scaled.jpg" class="servizi__carousel__track__list__item__image" alt="">
                     <h5 class="servizi__carousel__track__list__item__title"> Comunication Manager </h5>
                 </li>
-                <li class="servizi__carousel__track__list__item splide__slide"> <img loading="lazy" src="http://personal-website.local/wp-content/uploads/2023/05/stephen-phillips-hostreviews-co-uk-shr_Xn8S8QU-unsplash-scaled.jpg" class="servizi__carousel__track__list__item__image" alt="">
+                <li class="servizi__carousel__track__list__item splide__slide"> <img loading="lazy" src="https://sergiom106.sg-host.com/wp-content/uploads/2023/05/stephen-phillips-hostreviews-co-uk-shr_Xn8S8QU-unsplash-scaled.jpg" class="servizi__carousel__track__list__item__image" alt="">
                     <h5 class="servizi__carousel__track__list__item__title"> Web Menagement </h5>
                 </li>
             </ul>
