@@ -1,49 +1,50 @@
 <?php 
 
 /**
- * Definisce post type per i Progetti
+ * Definisce post type per i Lavori
  */
 
- add_action( 'init', 'register_progetti_post_type' );
- function register_progetti_post_type() {
+ add_action( 'init', 'register_lavori_post_type' );
+ function register_lavori_post_type() {
  
-     /** progetti **/
+     /** lavori **/
      $labels = array(
-         'name'          => _x( 'Progetti', 'Post Type General Name', 'federico_toldo' ),
-         'singular_name' => _x( 'Progetto', 'Post Type Singular Name', 'federico_toldo' ),
+         'name'          => _x( 'Lavori', 'Post Type General Name', 'federico_toldo' ),
+         'singular_name' => _x( 'Lavoro', 'Post Type Singular Name', 'federico_toldo' ),
          'add_new'       => _x( 'Aggiungi un File', 'Post Type Singular Name', 'federico_toldo' ),
          'add_new_item'  => _x( 'Aggiungi un File', 'Post Type Singular Name', 'federico_toldo' ),
          'edit_item'      => _x( 'Modifica il File', 'Post Type Singular Name', 'federico_toldo' ),
          'view_item'      => _x( 'Visualizza il File', 'Post Type Singular Name', 'federico_toldo' ),
      );
      $args   = array(
-         'label'         => __( 'progetti', 'federico_toldo' ),
+         'label'         => __( 'lavori', 'federico_toldo' ),
          'labels'        => $labels,
+         'description'   => 'Una sezione per gestire i lavori che poi vengono stampati in Home page',
          'public'        => true,
-         'menu_position' => 4,
-         'menu_icon'     => 'dashicons-welcome-add-page',
+         'menu_position' => 5,
+         'menu_icon'     => 'dashicons-sticky',
          'supports'      => array('title', 'thumbnail', 'excerpt'),
-         'register_meta_box_cb' => 'link_progetti_meta_box'
+         'register_meta_box_cb' => 'link_lavori_meta_box'
      );
-     register_post_type( 'progetti', $args );
+     register_post_type( 'lavori', $args );
 
-    function link_progetti_meta_box() {
+    function link_lavori_meta_box() {
 
         add_meta_box(
-            'link-progetti',
-            __( 'Link Progetti', 'sitepoint' ),
-            'link_progetti_meta_box_callback'
+            'link-lavori',
+            __( 'Link Lavori', 'sitepoint' ),
+            'link_lavori_meta_box_callback'
         );
     
     }
-    function link_progetti_meta_box_callback( $post ) {
+    function link_lavori_meta_box_callback( $post ) {
 
         // Add a nonce field so we can check for it later.
-        wp_nonce_field( 'link_progetti_nonce', 'link_progetti_nonce' );
+        wp_nonce_field( 'link_lavori_nonce', 'link_lavori_nonce' );
     
-        $value = get_post_meta( $post->ID, '_link_progetti', true );
+        $value = get_post_meta( $post->ID, '_link_lavori', true );
     
-        echo '<textarea style="width:100%" id="link_progetti" name="link_progetti">' . esc_attr( $value ) . '</textarea>';
+        echo '<textarea style="width:100%" id="link_lavori" name="link_lavori">' . esc_attr( $value ) . '</textarea>';
     }
 }
 
@@ -52,15 +53,15 @@
  *
  * @param int $post_id
  */
-function save_link_progetti_meta_box_data( $post_id ) {
+function save_link_lavori_meta_box_data( $post_id ) {
 
     // Check if our nonce is set.
-    if ( ! isset( $_POST['link_progetti_nonce'] ) ) {
+    if ( ! isset( $_POST['link_lavori_nonce'] ) ) {
         return;
     }
 
     // Verify that the nonce is valid.
-    if ( ! wp_verify_nonce( $_POST['link_progetti_nonce'], 'link_progetti_nonce' ) ) {
+    if ( ! wp_verify_nonce( $_POST['link_lavori_nonce'], 'link_lavori_nonce' ) ) {
         return;
     }
 
@@ -87,17 +88,15 @@ function save_link_progetti_meta_box_data( $post_id ) {
     /* OK, it's safe for us to save the data now. */
 
     // Make sure that it is set.
-    if ( ! isset( $_POST['link_progetti'] ) ) {
+    if ( ! isset( $_POST['link_lavori'] ) ) {
         return;
     }
 
     // Sanitize user input.
-    $my_data = sanitize_text_field( $_POST['link_progetti'] );
+    $my_data = sanitize_text_field( $_POST['link_lavori'] );
 
     // Update the meta field in the database.
-    update_post_meta( $post_id, '_link_progetti', $my_data );
+    update_post_meta( $post_id, '_link_lavori', $my_data );
 }
 
-add_action( 'save_post', 'save_link_progetti_meta_box_data' );
-
-?>
+add_action( 'save_post', 'save_link_lavori_meta_box_data' );

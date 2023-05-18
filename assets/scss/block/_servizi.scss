@@ -42,10 +42,14 @@
                     }
                     &__title{
                         position: absolute;
-                        top: 24rem;
+                        top: 23rem;
                         left: 5rem;
                         color: $white-color;
                         font-size: 2.4rem;
+
+                        @media #{$desktop} {
+                            top: 21rem;                            
+                        }
                     }
                 }
             }

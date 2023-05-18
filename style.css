@@ -337,10 +337,15 @@ button {
 }
 .servizi__carousel__track__list__item__title {
   position: absolute;
-  top: 24rem;
+  top: 23rem;
   left: 5rem;
   color: #fff;
   font-size: 2.4rem;
+}
+@media (max-width: 992px) {
+  .servizi__carousel__track__list__item__title {
+    top: 21rem;
+  }
 }
 
 .hero {
@@ -597,4 +602,38 @@ footer .footer__box__social a:hover {
   .cover {
     display: block;
   }
+}
+
+.lavori__card {
+  max-height: 30rem;
+  border: 1px solid #1b1b1b;
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+.lavori__card__image img {
+  max-height: 29.9rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.lavori__card__content {
+  display: flex;
+  flex-direction: column;
+}
+.lavori__card__content__title {
+  margin: 2rem 0;
+}
+.lavori__card__content__text {
+  margin: 2rem 0;
+}
+
+.lavori-link {
+  color: #ba181b;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.lavori-link iconify-icon {
+  font-size: 2rem;
 }

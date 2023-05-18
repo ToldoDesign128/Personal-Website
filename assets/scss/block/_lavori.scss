@@ -1,0 +1,42 @@
+// _lavori.scss
+
+.lavori {
+  &__card {
+    max-height: 30rem;
+    border: 1px solid $dark-color;
+    background-color: $light-color;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+    &__image{
+        img{
+            max-height: 29.9rem;
+            object-fit: cover;
+        }
+    }
+
+    &__content{
+        display: flex;
+        flex-direction: column;
+
+        &__title{
+            margin: 2rem 0;
+        }
+        &__text{
+            margin: 2rem 0;
+        }
+    }
+  }
+}
+
+.lavori-link{
+    color: $accent-secondary-color;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+    iconify-icon{
+        font-size: 2rem;
+    }
+}
