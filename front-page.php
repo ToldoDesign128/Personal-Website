@@ -26,7 +26,7 @@
                 </div>
             </div>
             <div class="hero__box__image col-lg-4 col-12">
-                <img loading="lazy" src="<?php echo get_template_directory_uri() . '/assets/img/IMG_7232.webp'; ?>" alt="Foto federico Toldo">
+                <img src="<?php echo get_template_directory_uri() . '/assets/img/IMG_7232.webp'; ?>" alt="Foto federico Toldo">
             </div>
         </div>
     </div>
@@ -34,7 +34,7 @@
 
 <!-- Foto small device -->
 <section class="cover">
-    <img loading="lazy" src="<?php echo get_template_directory_uri() . '/assets/img/IMG_7232.webp'; ?>" alt="Foto federico Toldo">
+    <img src="<?php echo get_template_directory_uri() . '/assets/img/IMG_7232.webp'; ?>" alt="Foto federico Toldo">
 </section>
 
 <!-- Servizi -->
