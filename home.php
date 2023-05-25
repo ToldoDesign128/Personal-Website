@@ -38,7 +38,7 @@
                             <?php echo  the_excerpt();?>
                         </div>
                         <div class="button">
-                            <a href="<?php echo get_the_permalink();?>" class="button__link">
+                            <a href="<?php echo the_permalink();?>" class="button__link">
                                 <button class="button__link__items">Leggi di più</button>
                             </a>
                         </div>

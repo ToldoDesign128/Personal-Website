@@ -12,9 +12,10 @@ function Personal_setup() {
 
     // image size
     if ( function_exists( 'add_image_size' ) ) {
+        add_image_size( 'xsmall', 100, 100 , true);
         add_image_size( 'small', 150, 150 , true);
-        add_image_size( 'medium', 600, 300 , false);
-        add_image_size( 'large', 1200, 600 , false);
+        add_image_size( 'medium', 600, 300 , true);
+        add_image_size( 'large', 1200, 600 , true);
     }
 }
 add_action( 'after_setup_theme','Personal_setup');

@@ -4,7 +4,7 @@
 <section class="hero">
     <div class="container hero__box">
         <div class="row h-100">
-            <div class="hero__box__text col-lg-8 col-md-10 col-12 px-4 mb-5 row">
+            <div class="hero__box__text col-lg-8 col-md-10 col-12 pr-4 mb-5 row">
                 <h3 class="col-12 my-4 p-0">Benvenuti nel mio mondo digitale!</h3>
                 <h5 class="col-10 p-0"> Sono un designer e front-end developer appassionato di creare esperienze uniche e coinvolgenti per il web.</h5> 
                 <p class="col-lg-8 col-md-10 my-4 p-0">Qui troverete una selezione dei miei progetti più recenti e le mie competenze, ma soprattutto la mia passione per il design e la tecnologia. Siete pronti a scoprire il futuro del web?</p>
