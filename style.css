@@ -618,6 +618,7 @@ footer .footer__box__social a:hover {
 }
 .lavori__card__image {
   width: 50%;
+  line-height: 0;
 }
 .lavori__card__image img {
   width: 100%;
@@ -689,8 +690,19 @@ footer .footer__box__social a:hover {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media (max-width: 992px) {
+  .single__content__image {
+    margin-top: 5rem;
+  }
+}
 .single__content__text {
   margin-top: 8rem;
+}
+@media (max-width: 992px) {
+  .single__content {
+    padding-top: 5rem;
+    padding-right: 1rem;
+  }
 }
 .single__side {
   padding-top: 33rem;
@@ -722,4 +734,13 @@ footer .footer__box__social a:hover {
 }
 .single__side__box__content h5 {
   margin-top: 1rem;
+}
+@media (max-width: 992px) {
+  .single__side {
+    padding-top: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-left: none;
+    border-top: 1px solid #1b1b1b;
+  }
 }
