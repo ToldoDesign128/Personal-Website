@@ -4,6 +4,7 @@
     &__link{
         
         &__items{
+            pointer-events: all;
             padding: 1.2rem 2.4rem;
             color: $black-color;
             background-color: $light-color;
@@ -15,7 +16,7 @@
                 color: $white-color;
                 border: 1px solid $accent-secondary-color;
                 background-color: $dark-color;
-                pointer-events: none;
+                cursor: none;
             }
         }
     }

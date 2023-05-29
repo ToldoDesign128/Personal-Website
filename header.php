@@ -15,7 +15,7 @@
         <div class="container">
             <div class="row align-items-center justify-content-between">
                 <div class="header__logo col-md-3 col-8 mx-md-0 mx-2">
-                    <a href="home" class="header__logo__link">
+                    <a href="<?php echo home_url(); ?>" class="header__logo__link">
                         Federico Toldo
                     </a>
                 </div>

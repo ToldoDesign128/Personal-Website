@@ -2,7 +2,7 @@
 <section class="single">
     <div class="container">
         <div class="row">
-            <div class="single__content col-lg-9">
+            <div class="single__content col-lg-9 col-12">
 
                 <p><?php echo get_the_date(); ?></p>
                 <h1><?php echo the_title() ?></h1>
@@ -14,7 +14,7 @@
                     <?php echo the_content(); ?>
                 </div>
             </div>
-            <div class="single__side col-lg-3">
+            <div class="single__side col-lg-3 col-12">
                 <h4>News Corelate</h4>
                 <div class="row">
                     <?php
@@ -28,7 +28,7 @@
 
                     while ($loop->have_posts()) : $loop->the_post(); ?>
 
-                        <a href="<?php echo the_permalink();?>">
+                        <a href="<?php echo the_permalink(); ?>">
                             <article class="single__side__box col-12 row my-4">
                                 <div class="single__side__box__image col-4">
                                     <?php the_post_thumbnail('xsmall'); ?>
@@ -40,7 +40,7 @@
                             </article>
                         </a>
 
-                    <?php endwhile; ?>
+                    <?php endwhile; ?>                
                 </div>
             </div>
         </div>
