@@ -19,6 +19,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 
 html{
     font-size: 62.5%; // 1rem = 10px;
+    overflow-x: hidden;
 }
 
 footer, header, nav, section, main{
@@ -27,6 +28,7 @@ footer, header, nav, section, main{
 
 body{
     line-height: 1;
+    overflow-x: hidden;
 }
 
 ol, ul{

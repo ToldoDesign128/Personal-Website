@@ -8,6 +8,14 @@
                 <h2 class="col-12 my-5 p-0">News</h2>
                 <h5 class="col-12 my-2">Una piccola sezione dove parlo di design, sviluppo e molto altro legato al mondo della tecnologia e della comunicazione.</h5>
             </div>
+            <div class="row hero__progetti px-3">
+                <p class="offset-md-1 col-md-6 col-12">Scorri per visualizzare le ultime news</p>
+                <div class="offset-md-1 col-md-6 col-12 hero__progetti__icon my-3">
+                    <a href="#loop-progetti">
+                        <iconify-icon icon="material-symbols:arrow-downward"></iconify-icon>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 </section>

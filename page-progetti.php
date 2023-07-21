@@ -22,7 +22,7 @@
 </section>
 
 <!-- Loop Progetti -->
-<section id="loop-progetti" class="container progetti">
+<section id="loop-progetti" class="container progetti my-5">
     <div class="row">
         <?php 
             $loop = new WP_Query( array(

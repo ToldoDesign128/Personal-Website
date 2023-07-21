@@ -38,6 +38,7 @@ html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockq
 
 html {
   font-size: 62.5%;
+  overflow-x: hidden;
 }
 
 footer, header, nav, section, main {
@@ -46,6 +47,7 @@ footer, header, nav, section, main {
 
 body {
   line-height: 1;
+  overflow-x: hidden;
 }
 
 ol, ul {
@@ -508,9 +510,6 @@ footer .footer__box__social a:hover {
   background-color: #1b1b1b;
 }
 
-.progetti {
-  padding: 10rem 0;
-}
 .progetti__card {
   padding: 2rem;
 }

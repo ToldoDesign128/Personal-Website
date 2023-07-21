@@ -8,9 +8,10 @@
                 <p class="copyright">© Copyright 2023 Federico Toldo</p>
             </div>
             <div class="col-md-6 col-12 footer__box__social">
-                <a href=""><iconify-icon icon="carbon:logo-instagram"></iconify-icon></a>
-                <a href=""><iconify-icon icon="carbon:logo-facebook"></iconify-icon></a>
-                <a href=""><iconify-icon icon="carbon:logo-linkedin"></iconify-icon></a>
+                <a href="" target="_blank"><iconify-icon icon="carbon:logo-instagram"></iconify-icon></a>
+                <a href="" target="_blank"><iconify-icon icon="carbon:logo-facebook"></iconify-icon></a>
+                <a href="https://www.linkedin.com/in/federico-toldo/" target="_blank"><iconify-icon icon="carbon:logo-linkedin"></iconify-icon></a>
+                <a href="https://github.com/ToldoDesign128" target="_blank"><iconify-icon icon="carbon:logo-github"></iconify-icon></a>
             </div>
         </div>
     </div>

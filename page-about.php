@@ -11,7 +11,7 @@
                 <h5 class="col-10 p-0">Allora, siete nel posto giusto!👌</h5>
             </div>
             <div class="hero__box__image col-lg-4 col-12">
-                <img src="<?php echo get_template_directory_uri() . '/assets/img/IMG_7232.webp' ;?>" alt="Foto federico Toldo">
+                <img src="<?php the_post_thumbnail_url();?>" alt="Foto federico Toldo">
             </div>
         </div>
     </div>
@@ -19,7 +19,7 @@
 
 <!-- Foto small device -->
 <section class="cover">
-    <img src="<?php echo get_template_directory_uri() . '/assets/img/IMG_7232.webp' ;?>" alt="Foto federico Toldo">
+    <img src="<?php the_post_thumbnail_url();?>" alt="Foto federico Toldo">
 </section>
 
 <!-- CTA -->
